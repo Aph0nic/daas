@@ -2,6 +2,9 @@
 
 **DaaS** is a file browser written in JavaScript with a frontend in HTML, CSS, and JavaScript. Allows viewing files and folders, downloading them (including zipping), and viewing media files directly in the browser.
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/18260f24-9128-4c18-a981-a67495e7b6df)
+
 ## Features
 
 - View files and folders
@@ -126,3 +129,4 @@ daas
 
 Разработчик: **Azuremuzzlekit**
 
+![СВАГА_](https://github.com/user-attachments/assets/0215f2fe-d3cc-43ea-a942-38cc97a75bdc)
