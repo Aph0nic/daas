@@ -20,7 +20,7 @@ daas
 ├── src                  # Frontend source code
 │   ├── css
 │   │   └── style.css    # Main stylesheet
-│   ├── img
+│   ├── assets/images
 │   │   └── icon.png     # Project icon
 │   ├── js
 │   │   └── script.js    # Frontend logic
@@ -85,7 +85,7 @@ daas
 ├── src                  # Исходники фронтенда
 │   ├── css
 │   │   └── style.css    # Основной стиль
-│   ├── img
+│   ├── assets/images
 │   │   └── icon.png     # Иконка проекта
 │   ├── js
 │   │   └── script.js    # Логика фронтенда
