@@ -1,6 +1,5 @@
 # **DaaS** (Directory-as-a-Service)
 
-```markdown
 **DaaS** is a file browser written in Go with a frontend in HTML, CSS, and JavaScript. Allows viewing files and folders, downloading them (including zipping), and viewing media files directly in the browser.
 
 ## Features
@@ -13,8 +12,6 @@
 - Mod support
 
 ## Project Structure
-
-```
 ```project tree
 daas
 ├── main                 # Main folder with files visible on the site
@@ -28,7 +25,6 @@ daas
 │   └── index.html       # Main page
 ├── server.go            # Backend server in Go
 └── README.md            # This file
-```
 ```
 
 ## Installation & Usage
