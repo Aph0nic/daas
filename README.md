@@ -16,7 +16,7 @@
 ## Project Structure
 ```project tree
 daas
-├── main                 # Main folder with files visible on the site
+├── safe_share           # Main folder with files visible on the site
 ├── src                  # Frontend source code
 │   ├── css
 │   │   └── style.css    # Main stylesheet
@@ -81,7 +81,7 @@ DaaS — это файловый браузер, написанный на JavaS
 
 ```
 daas
-├── main                 # Основная папка с файлами, видными на сайте
+├── safe_share           # Основная папка с файлами, видными на сайте
 ├── src                  # Исходники фронтенда
 │   ├── css
 │   │   └── style.css    # Основной стиль
