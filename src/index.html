@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Azuremuzzlekit">
+    <meta name="description" content="simple file browser with single directory">
+    <meta name="keywords" content="file browser, directory, project, files, share, github">
+
+    <title>DaaS</title>
+
+    <link rel="shortcut icon" href="/img/icon.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>DaaS</h1>
+            <h3><b>Directory-as-a-Service</b> - by Azuremuzzlekit</h3>
+            <div id="breadcrumbs"></div>
+        </header>
+
+        <main>
+            <div id="file-list"></div>
+        </main>
+    </div>
+
+    <div class="viewer-overlay" id="viewer-overlay"></div>
+    <div class="viewer-container" id="viewer-container">
+        <div class="viewer-header">
+            <div class="viewer-title" id="viewer-title"></div>
+            <button class="close-btn">×</button>
+        </div>
+        <pre id="file-content"></pre>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
