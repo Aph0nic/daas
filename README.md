@@ -15,6 +15,7 @@
 ## Project Structure
 
 ```
+```project tree
 daas
 ├── main                 # Main folder with files visible on the site
 ├── src                  # Frontend source code
@@ -27,6 +28,7 @@ daas
 │   └── index.html       # Main page
 ├── server.go            # Backend server in Go
 └── README.md            # This file
+```
 ```
 
 ## Installation & Usage
