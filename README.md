@@ -103,6 +103,9 @@ daas
    ```sh
    git clone https://github.com/Azuremuzzlekit/daas.git
    cd daas
+
+   # installing dependencies
+   npm install express archiver cors
    ```
 2. Запустите сервер:
    ```sh
