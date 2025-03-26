@@ -1,15 +1,14 @@
 # **DaaS** (Directory-as-a-Service)
 
-**DaaS** is a file browser written in Go with a frontend in HTML, CSS, and JavaScript. Allows viewing files and folders, downloading them (including zipping), and viewing media files directly in the browser.
+**DaaS** is a file browser written in JavaScript with a frontend in HTML, CSS, and JavaScript. Allows viewing files and folders, downloading them (including zipping), and viewing media files directly in the browser.
 
 ## Features
 
 - View files and folders
 - Download files and folders (zipping)
-- View images, videos, audio, and text files
+- View text files
 - Modern, user-friendly, and animated interface
 - Easy customization via API
-- Mod support
 
 ## Project Structure
 ```project tree
@@ -23,7 +22,7 @@ daas
 │   ├── js
 │   │   └── script.js    # Frontend logic
 │   └── index.html       # Main page
-├── server.go            # Backend server in Go
+├── server.js            # Backend server in JavaScript
 └── README.md            # This file
 ```
 
@@ -31,40 +30,24 @@ daas
 
 ### Requirements
 
-- Go 1.18+
+- nodejs
 
 ### Starting the Server
 
 1. Clone the repository:
    ```sh
    git clone https://github.com/Azuremuzzlekit/daas.git
-   cd randetta
+   cd daas
    ```
 2. Run the server:
    ```sh
-   go run server.go
+   node server.js
    ```
 3. Open `http://localhost:8080` in your browser.
 
-## **Compilation & Execution**
-
-### **On Windows:**
-
-```
-go build -o server.exe server.go
-.\server.exe
-```
-
-### **Linux & macOS:**
-
-```
-go build -o server server.go
-./server
-```
-
 ## Configuration
 
-- The root folder path is set in `server.go` (variable `rootDir`)
+- The root folder path is set in `server.js` (variable `rootDir`)
 - The API allows extending functionality and adding support for new file types
 
 ## License
@@ -78,16 +61,15 @@ Developer: **Azuremuzzlekit**
 
 
 # На русском (ru)
-DaaS — это файловый браузер, написанный на Go с фронтендом на HTML, CSS и JavaScript. Позволяет просматривать файлы и папки, скачивать их (включая архивацию в zip), а также просматривать медиафайлы прямо в браузере.
+DaaS — это файловый браузер, написанный на JavaScript с фронтендом на HTML, CSS и JavaScript. Позволяет просматривать файлы и папки, скачивать их (включая архивацию в zip), а также просматривать медиафайлы прямо в браузере.
 
 ## Возможности
 
 - Просмотр файлов и папок
 - Скачивание файлов и папок (архивация в zip)
-- Просмотр изображений, видео, аудио и текстовых файлов
+- Просмотр текстовых файлов
 - Современный, удобный и анимированный интерфейс
 - Простая модификация через API
-- Поддержка модов
 
 ## Структура проекта
 
@@ -102,7 +84,7 @@ daas
 │   ├── js
 │   │   └── script.js    # Логика фронтенда
 │   └── index.html       # Главная страница
-├── server.go            # Серверная часть на Go
+├── server.js            # Серверная часть на JavaScript
 └── README.md            # Этот файл
 ```
 
@@ -110,40 +92,24 @@ daas
 
 ### Требования
 
-- Go 1.18+
+- nodejs
 
 ### Запуск сервера
 
 1. Клонируйте репозиторий:
    ```sh
    git clone https://github.com/Azuremuzzlekit/daas.git
-   cd randetta
+   cd daas
    ```
 2. Запустите сервер:
    ```sh
-   go run server.go
+   node server.js
    ```
 3. Откройте в браузере `http://localhost:8080`
 
-## **Компиляция и запуск**
-
-### **На Windows:**
-
-```
-go build -o server.exe server.go
-.\server.exe
-```
-
-### **Linux & macOS:**
-
-```
-go build -o server server.go
-./server
-```
-
 ## Конфигурация
 
-- Путь к основной папке устанавливается в коде `server.go` (переменная `rootDir`)
+- Путь к основной папке устанавливается в коде `server.js` (переменная `rootDir`)
 - API позволяет расширять функционал и добавлять поддержку новых типов файлов
 
 ## Лицензия
