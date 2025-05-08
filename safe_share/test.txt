@@ -1,3 +1,6 @@
-This site made by Azuremuzzlekit
+This site made by Aph0nic
 
-Join to our chanel in Telegram: https://t.me/c/2168492222/8
+You can use this project for your own purposes.
+
+For example:
+use as an archive on your site, make a fork and add new functions or change existing ones.
